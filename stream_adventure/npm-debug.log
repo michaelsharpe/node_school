@@ -1,0 +1,116 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.10.24/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'child-process',
+1 verbose cli   'duplexer' ]
+2 info using npm@1.3.21
+3 info using node@v0.10.24
+4 warn package.json meteor@0.5.2-1 No repository field.
+5 verbose cache add [ 'child-process', null ]
+6 verbose cache add name=undefined spec="child-process" args=["child-process",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'child-process',
+7 verbose parsed url   path: 'child-process',
+7 verbose parsed url   href: 'child-process' }
+8 verbose cache add [ 'duplexer', null ]
+9 verbose cache add name=undefined spec="duplexer" args=["duplexer",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'duplexer',
+10 verbose parsed url   path: 'duplexer',
+10 verbose parsed url   href: 'duplexer' }
+11 silly lockFile f28a07a6-child-process child-process
+12 verbose lock child-process /Users/heru/.npm/f28a07a6-child-process.lock
+13 silly lockFile 44f66399-duplexer duplexer
+14 verbose lock duplexer /Users/heru/.npm/44f66399-duplexer.lock
+15 silly lockFile f28a07a6-child-process child-process
+16 silly lockFile f28a07a6-child-process child-process
+17 silly lockFile 44f66399-duplexer duplexer
+18 silly lockFile 44f66399-duplexer duplexer
+19 verbose addNamed [ 'child-process', '' ]
+20 verbose addNamed [ null, '*' ]
+21 silly lockFile b9aadc1f-child-process child-process@
+22 verbose lock child-process@ /Users/heru/.npm/b9aadc1f-child-process.lock
+23 verbose addNamed [ 'duplexer', '' ]
+24 verbose addNamed [ null, '*' ]
+25 silly lockFile 0b28ce21-duplexer duplexer@
+26 verbose lock duplexer@ /Users/heru/.npm/0b28ce21-duplexer.lock
+27 silly addNameRange { name: 'child-process', range: '*', hasData: false }
+28 silly addNameRange { name: 'duplexer', range: '*', hasData: false }
+29 verbose url raw duplexer
+30 verbose url resolving [ 'https://registry.npmjs.org/', './duplexer' ]
+31 verbose url resolved https://registry.npmjs.org/duplexer
+32 info trying registry request attempt 1 at 14:12:09
+33 verbose etag "7ISZDH47JIVLAQOJBVTXRCOZ"
+34 http GET https://registry.npmjs.org/duplexer
+35 verbose url raw child-process
+36 verbose url resolving [ 'https://registry.npmjs.org/', './child-process' ]
+37 verbose url resolved https://registry.npmjs.org/child-process
+38 info trying registry request attempt 1 at 14:12:09
+39 http GET https://registry.npmjs.org/child-process
+40 http 304 https://registry.npmjs.org/duplexer
+41 silly registry.get cb [ 304,
+41 silly registry.get   { date: 'Fri, 24 Jan 2014 19:06:58 GMT',
+41 silly registry.get     server: 'Apache',
+41 silly registry.get     connection: 'Keep-Alive',
+41 silly registry.get     'keep-alive': 'timeout=10, max=50',
+41 silly registry.get     etag: '"7ISZDH47JIVLAQOJBVTXRCOZ"',
+41 silly registry.get     vary: 'Accept' } ]
+42 verbose etag duplexer from cache
+43 silly addNameRange number 2 { name: 'duplexer', range: '*', hasData: true }
+44 silly addNameRange versions [ 'duplexer',
+44 silly addNameRange   [ '0.0.1', '0.0.2', '0.0.3', '0.0.4', '0.1.0', '0.1.1' ] ]
+45 verbose addNamed [ 'duplexer', '0.1.1' ]
+46 verbose addNamed [ '0.1.1', '0.1.1' ]
+47 silly lockFile 8b6da3d1-duplexer-0-1-1 duplexer@0.1.1
+48 verbose lock duplexer@0.1.1 /Users/heru/.npm/8b6da3d1-duplexer-0-1-1.lock
+49 silly lockFile 8b6da3d1-duplexer-0-1-1 duplexer@0.1.1
+50 silly lockFile 8b6da3d1-duplexer-0-1-1 duplexer@0.1.1
+51 silly lockFile 0b28ce21-duplexer duplexer@
+52 silly lockFile 0b28ce21-duplexer duplexer@
+53 http 404 https://registry.npmjs.org/child-process
+54 silly registry.get cb [ 404,
+54 silly registry.get   { date: 'Fri, 24 Jan 2014 19:06:58 GMT',
+54 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+54 silly registry.get     'content-type': 'application/json',
+54 silly registry.get     'cache-control': 'max-age=0',
+54 silly registry.get     'content-length': '52',
+54 silly registry.get     'accept-ranges': 'bytes',
+54 silly registry.get     via: '1.1 varnish',
+54 silly registry.get     age: '0',
+54 silly registry.get     'x-served-by': 'cache-jfk1031-JFK',
+54 silly registry.get     'x-cache': 'MISS',
+54 silly registry.get     'x-cache-hits': '0',
+54 silly registry.get     'x-timer': 'S1390590418.210769892,VS0,VE53',
+54 silly registry.get     'keep-alive': 'timeout=10, max=50',
+54 silly registry.get     connection: 'Keep-Alive' } ]
+55 silly lockFile b9aadc1f-child-process child-process@
+56 silly lockFile b9aadc1f-child-process child-process@
+57 error 404 'child-process' is not in the npm registry.
+57 error 404 You should bug the author to publish it
+57 error 404
+57 error 404 Note that you can also install from a
+57 error 404 tarball, folder, or http url, or git url.
+58 error System Darwin 13.0.0
+59 error command "/usr/local/Cellar/node/0.10.24/bin/node" "/usr/local/bin/npm" "install" "child-process" "duplexer"
+60 error cwd /Users/heru/workspace/javascript/nodeschool/stream_adventure
+61 error node -v v0.10.24
+62 error npm -v 1.3.21
+63 error code E404
+64 verbose exit [ 1, true ]
